@@ -1,0 +1,57 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin top by header height */
+    margin-top: 80px;
+    /* Margin bottom by footer height */
+    margin-bottom: 2 * $spacing-unit;
+}
+
+body>.container {}
+
+
+/**
+ * PageContent
+ */
+
+.PageHeader {
+    margin-bottom: $spacing-unit;
+}
+
+
+/**
+ * PageContent
+ */
+
+.PageContent {
+    margin-bottom: $spacing-unit;
+}
+
+
+/**
+ * Footer
+ */
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $spacing-unit * 2;
+    padding-top: $spacing-unit / 2;
+    border-top: 1px solid $grey-color;
+    background-color: $background-color;
+    font-size: $small-font-size;
+    color: $grey-color-dark;
+}
+
+.Footer a {
+    color: $grey-color-dark;
+    text-decoration: none;
+}
+
+.Footer a:hover {
+    color: $brand-color-dark;
+}

@@ -1,0 +1,32 @@
+/**
+ * Code Block
+ */
+
+html,
+body {
+    height: auto;
+}
+
+.CodeBlock {
+    margin-top: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.CodeBlockFooter {
+    font-size: 12px;
+    padding: 8px 18px;
+    margin-top: -$spacing-unit/2 - 1;
+    border: 1px solid $grey-color;
+}
+
+.CodeBlockFooter>.CodeBlockHtmlLink {
+    font-size: 12px;
+}
+
+.CodeBlockFooter>.CodeBlockRawLink {
+    float: right;
+}
+
+.CodeBlockHtmlLink i {
+    padding-right: 5px;
+}

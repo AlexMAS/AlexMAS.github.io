@@ -1,0 +1,34 @@
+{% capture build %}
+
+{% assign result = '' %}
+{% assign pageTags = '' %}
+
+{% assign tags = include.tags %}
+
+{% if tags == nil %}
+	{% assign tags = page.tags %}
+{% endif %}
+
+{% for tag in tags %}
+	{% assign pageTag = tag | strip | append: '|' %}
+
+	{% unless pageTags contains pageTag %}
+		{% assign pageTags = pageTags | append: pageTag %}
+	{% endunless %}
+{% endfor %}
+
+{% assign pageTags = pageTags | split: '|' | sort %}
+
+{% if pageTags.size > 0 %}
+	{% assign result = result | append: '<ul class="PageTags">' %}
+	
+	{% for tag in pageTags %}
+		{% assign result = result | append: '<li><a href="/tags/#' | append: tag | append: '">' | append: tag | append: '</a></li>' %}
+	{% endfor %}
+	
+	{% assign result = result | append: '</ul>' %}
+{% endif %}
+
+{% endcapture %}
+
+{{ result }}

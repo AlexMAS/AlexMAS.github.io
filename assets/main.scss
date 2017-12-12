@@ -1,0 +1,48 @@
+---
+# Jekyll File Header
+---
+
+/*
+@charset "utf-8";
+
+$base-font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+$base-font-size: 14px;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit: 30px;
+$text-color: rgba(0, 0, 0, 0.87);
+
+$background-color: #fdfdfd;
+$brand-color: #337ab7;
+$brand-color-dark: #23527c;
+$grey-color: #e7e7e7;
+$grey-color-light: #f8f8f8;
+$grey-color-dark: darken($grey-color, 25%);
+
+// Width of the content area
+$content-width: 800px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+*/
+
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "startbootstrap-clean-blog/clean-blog.scss";
+
+@import "code-highlighting";
+
+/*
+@import "base";
+@import "layout";
+
+@import "code-block";
+@import "code-highlighting";
+@import "disqus-comments";
+*/
