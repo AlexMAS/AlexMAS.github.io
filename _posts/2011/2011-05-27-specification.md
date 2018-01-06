@@ -6,7 +6,6 @@ tags: [ DevCon, OOP, Entity Framework, LINQ ]
 
 videoId: qkM_BPwRoiA
 slideId: 1EF-OLoFqfZssadxoy3U6jgNmVeXtVBgK
-exampleId: 1fNDP8ZiVF_wihwuGG-twCRvrGAwFgAR0
 ---
 
 Сегодня завершилась конференция для разработчиков программного обеспечения
