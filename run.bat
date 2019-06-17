@@ -1,4 +1,5 @@
 @echo off
 
-if exist _site del _site /Q
-bundle exec jekyll serve -w
+REM `docker` folder contains context file (.env)
+
+docker-compose --project-directory . -f docker/docs.yml up

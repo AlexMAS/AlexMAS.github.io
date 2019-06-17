@@ -17,7 +17,7 @@ googleAnalytics: "UA-110188612-1"
 
 # Handling
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-exclude: [ ".git", ".vscode" ]
+exclude: [ ".git", ".vscode", "docker" ]
 keep_files: [ ".git" ]
 encoding: "utf-8"
 safe: false

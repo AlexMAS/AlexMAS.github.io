@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+
+  docs:
+    image: jekyll/jekyll:3.8
+    container_name: docs
+    command: jekyll serve --incremental --watch
+    ports:
+      - '4000:4000'
+    restart: always
+    volumes:
+      - ./:/srv/jekyll
+      - docs-volume:/usr/local/bundle
+    networks:
+      dev:
+        aliases:
+          - docs
+
+networks:
+  dev:
+    name: dev
+
+volumes:
+  docs-volume:
+    name: docs-volume
