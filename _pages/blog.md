@@ -1,14 +1,14 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Архитектоника в ИТ
 nav: true
 nav_order: 1
 pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 5
+  per_page: 10
   sort_field: date
   sort_reverse: true
   trail:
@@ -22,31 +22,23 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
-
   <div class="header-bar">
+    {% if site.blog_img %}
+    <div class="blog-img">
+      <img src="{{ site.blog_img }}"/>
+    </div>
+    {% endif %}
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
-  {% endif %}
+{% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
-
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
-      {% endif %}
-      {% for category in site.display_categories %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag.name | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag.name }}</a>
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -54,7 +46,7 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+{% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
@@ -74,7 +66,7 @@ pagination:
 <i class="fa-solid fa-thumbtack fa-xs"></i>
 </div>
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-<p class="card-text">{{ post.description }}</p>
+<p class="card-text">{{ post.excerpt }}</p>
 
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -139,7 +131,7 @@ pagination:
           <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
         {% endif %}
       </h3>
-      <p>{{ post.description }}</p>
+      <p>{{ post.excerpt }}</p>
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %d, %Y' }}

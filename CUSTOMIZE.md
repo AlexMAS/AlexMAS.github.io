@@ -1,6 +1,8 @@
 # Customize
 
-Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
+Here we will give you some tips on how to customize the website.
+One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository.
+The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
 <!--ts-->
 
@@ -226,7 +228,6 @@ To remove the blog, you have to:
 You can also:
 
 - delete [\_includes/latest_posts.liquid](_includes/latest_posts.liquid)
-- delete [\_includes/related_posts.liquid](_includes/related_posts.liquid)
 - delete [\_layouts/archive.liquid](_layouts/archive.liquid) (unless you have a custom collection that uses it)
 - delete [\_plugins/external-posts.rb](_plugins/external-posts.rb)
 - remove the `jekyll-archives-v2` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml) (unless you have a custom collection that uses it)

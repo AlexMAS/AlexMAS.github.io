@@ -35,6 +35,11 @@ table {
   }
 }
 
+.archive-th {
+  white-space: nowrap;
+  font-weight: normal;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -415,7 +420,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       img {
@@ -656,6 +661,22 @@ footer.sticky-bottom {
       }
     }
   }
+}
+
+.blog-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+.blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 // diff2html - Fix for diff2html line number overflow
@@ -926,6 +947,7 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    white-space: inherit;
   }
 }
 

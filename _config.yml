@@ -3,23 +3,20 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Александр
+middle_name:
+last_name: Межов
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Быстрей всего я отвечаю в Telegram, MAX и по e-mail.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Персональный сайт Александра Межова.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+keywords: architecture, development, blog, Mezhov, Межов # add your own keywords or leave empty
+lang: ru # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://alexmas.github.io/ # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -86,8 +83,12 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_img: /assets/img/blog/arch_and_dev.jpeg
+blog_name: Архитектоника в ИТ # blog_name will be displayed in your blog page
+blog_description: >
+  Заметки про ИТ-архитектуру и разработку<br/>
+  Больше постов в Telegram-канале <a href="https://t.me/arch_and_dev/79">@arch_and_dev</a><br/>
+  Тематическая подборка постов <a href="/selection/">тут</a>
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -123,21 +124,19 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
-# Newsletter
+# Subscribe
 # -----------------------------------------------------------------------------
 
-newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
+subscribe:
+  enabled: true
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -187,7 +186,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -256,19 +254,56 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags:
+  - name: arch
+    title: "Архитектура"
+  - name: dev
+    title: "Разработка"
+  - name: db
+    title: "Базы данных"
+  - name: devops
+    title: "DevOps-технологии"
+  - name: tech
+    title: "Технологии"
+  - name: conf
+    title: "Конференции"
+  - name: view
+    title: "Точка зрения"
+  - name: tools
+    title: "Инструменты"
+  - name: tip
+    title: "Советы и решения"
+
+selection:
+  - name: arch-and-dev
+    title: "Архитектура и разработка"
+  - name: databases
+    title: "Базы данных"
+  - name: data-streams
+    title: "Потоки данных"
+  - name: algorithms
+    title: "Алгоритмы и шаблоны"
+  - name: system-programming
+    title: "Системное программирование"
+  - name: security
+    title: "Безопасность"
+
+display_categories:
+  - name: post
+    title: "Пост"
+  - name: article
+    title: "Статья"
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Межов]
+  first_name: [Александр]
 
   style: apa
-  locale: en
+  locale: ru
 
   source: /_bibliography/
   bibliography: papers.bib
