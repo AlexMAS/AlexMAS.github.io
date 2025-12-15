@@ -5,21 +5,21 @@ const ninja = document.querySelector('ninja-keys');
 ninja.data = [{
     id: "nav-обо-мне",
     title: "Обо мне",
-    section: "Navigation",
+    section: "Навигация",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-архитектоника-в-ит",
           title: "Архитектоника в ИТ",
-          description: "",
-          section: "Navigation",
+          description: "Заметки про ИТ-архитектуру и разработку",
+          section: "Навигация",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-публикации-и-выступления",
           title: "Публикации и выступления",
           description: "",
-          section: "Navigation",
+          section: "Навигация",
           handler: () => {
             window.location.href = "/publications/";
           },
@@ -28,7 +28,7 @@ ninja.data = [{
           title: "9 архитектурных заблуждений о распределённых системах",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/9-fallacies-distributed-computing/";
@@ -39,7 +39,7 @@ ninja.data = [{
           title: "Порочные связи между компонентами",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/connascence/";
@@ -50,7 +50,7 @@ ninja.data = [{
           title: "Декомпозиция в стиле квантовой архитектуры",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/decomposition-in-the-style-of-quantum-architecture/";
@@ -61,7 +61,7 @@ ninja.data = [{
           title: "Базовые элементы архитектурного фреймворка",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/basic-elements-of-an-architectural-framework/";
@@ -72,7 +72,7 @@ ninja.data = [{
           title: "Меры предосторожности при работе с РСУБД",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/safety-instruction-rdbms/";
@@ -83,7 +83,7 @@ ninja.data = [{
           title: "Ключевые темы HighLoad++ 2025",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/highload-2025/";
@@ -94,7 +94,7 @@ ninja.data = [{
           title: "Как начать структурировать опыт",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/how-to-structure-experience/";
@@ -105,7 +105,7 @@ ninja.data = [{
           title: "Вспомогательная таблица для ускорения выборки",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/data-seive/";
@@ -116,7 +116,7 @@ ninja.data = [{
           title: "Второй закон архитектуры",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/second-law-of-architecture/";
@@ -127,7 +127,7 @@ ninja.data = [{
           title: "Решардирование данных через промежуточный топик",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/resharding-data/";
@@ -138,7 +138,7 @@ ninja.data = [{
           title: "Контракт между приложением и окружением",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/app-env-contract/";
@@ -149,7 +149,7 @@ ninja.data = [{
           title: "Вайб-аналитика: митап",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/vibe-analytics-meetup/";
@@ -160,7 +160,7 @@ ninja.data = [{
           title: "Вайб-аналитика",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/vibe-analytics/";
@@ -171,7 +171,7 @@ ninja.data = [{
           title: "Волшебная кнопка",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/magic-button/";
@@ -182,7 +182,7 @@ ninja.data = [{
           title: "ArchiMate убрать нельзя оставить",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/archimate/";
@@ -193,7 +193,7 @@ ninja.data = [{
           title: "Доступность",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/availability/";
@@ -204,7 +204,7 @@ ninja.data = [{
           title: "Оптимистичная архитектура",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/optimistic-architecture/";
@@ -215,7 +215,7 @@ ninja.data = [{
           title: "Моделирование данных: переиспользование",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/data-modeling-reusing/";
@@ -226,7 +226,7 @@ ninja.data = [{
           title: "Моделирование данных: производительность",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/data-modeling-performance/";
@@ -237,7 +237,7 @@ ninja.data = [{
           title: "Моделирование данных: структуризация",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/data-modeling-structuring/";
@@ -248,7 +248,7 @@ ninja.data = [{
           title: "DevSecOps - build phase",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/devsecops-build-phase/";
@@ -259,7 +259,7 @@ ninja.data = [{
           title: "DevSecOps &amp; Shift-Left",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/devsecops-shift-left/";
@@ -270,7 +270,7 @@ ninja.data = [{
           title: "Интеграция и внешние идентификаторы",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/integration-and-external-ids/";
@@ -281,7 +281,7 @@ ninja.data = [{
           title: "Snowflake ID: генерация целочисленного идентификатора в распределённой системе",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/snowflake-id/";
@@ -292,7 +292,7 @@ ninja.data = [{
           title: "Как еще определять границы микросервисов",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/msa-decomposition/";
@@ -303,7 +303,7 @@ ninja.data = [{
           title: "TechLeadConf X 2025: видео",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/techleadconf-x-2025-video/";
@@ -314,7 +314,7 @@ ninja.data = [{
           title: "Голосование за канал",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/tg-contest-vote/";
@@ -325,7 +325,7 @@ ninja.data = [{
           title: "Ускорение интеграционных тестов",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/speeding-up-integration-tests/";
@@ -336,7 +336,7 @@ ninja.data = [{
           title: "Конкурс авторских каналов",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/tg-contest/";
@@ -347,7 +347,7 @@ ninja.data = [{
           title: "Борьба с техническим долгом и Legacy",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/eliminating-legacy/";
@@ -358,7 +358,7 @@ ninja.data = [{
           title: "Безопасное исполнение ненадёжного кода",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/untrusted-code/";
@@ -369,7 +369,7 @@ ninja.data = [{
           title: "TechLeadConf X 2025: итоги",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/techleadconf-x-2025-summary/";
@@ -380,7 +380,7 @@ ninja.data = [{
           title: "TechLeadConf X 2025: презентация",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/techleadconf-x-2025-presentation/";
@@ -391,7 +391,7 @@ ninja.data = [{
           title: "Распределенные SQL-базы",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/distributed-sql-databases/";
@@ -402,7 +402,7 @@ ninja.data = [{
           title: "Неизбежность эволюции",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/inevitability-of-evolution/";
@@ -413,7 +413,7 @@ ninja.data = [{
           title: "Способы борьбы с Legacy-кодом",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/legacy/";
@@ -424,7 +424,7 @@ ninja.data = [{
           title: "Миграция данных и HLL",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/data-migration-and-hll/";
@@ -435,7 +435,7 @@ ninja.data = [{
           title: "Инструменты Techlead Crew",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/techlead-crew-tools/";
@@ -446,7 +446,7 @@ ninja.data = [{
           title: "Слабая или сильная изоляция транзакций",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/weak-strong-isolation-levels/";
@@ -457,7 +457,7 @@ ninja.data = [{
           title: "Event Storming",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/event-storming/";
@@ -468,7 +468,7 @@ ninja.data = [{
           title: "Чего не написано - того нет",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/unknown-term/";
@@ -479,7 +479,7 @@ ninja.data = [{
           title: "Lamport Timestamp: генерация целочисленного идентификатора в распределённой БД без ACID-транзакций",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/lamport-timestamp/";
@@ -490,7 +490,7 @@ ninja.data = [{
           title: "Выбор UUID для первичного ключа таблицы",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/selecting-b-tree-and-uuids/";
@@ -501,7 +501,7 @@ ninja.data = [{
           title: "Структура, высеченная в камне",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/structure-carved-in-stone/";
@@ -512,7 +512,7 @@ ninja.data = [{
           title: "Устранение уязвимостей в коде",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/process-isolation/";
@@ -523,7 +523,7 @@ ninja.data = [{
           title: "Утилита изоляции процессов Bubblewrap",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/bubblewrap/";
@@ -534,7 +534,7 @@ ninja.data = [{
           title: "Безопасное исполнение ненадежного кода",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/teachleadconf-2025/";
@@ -545,7 +545,7 @@ ninja.data = [{
           title: "Проблемы изоляции транзакций",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/transaction-isolation-issues/";
@@ -556,7 +556,7 @@ ninja.data = [{
           title: "Удаление конфиденциальных данных",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/fast-delete-sensitive-data/";
@@ -567,7 +567,7 @@ ninja.data = [{
           title: "Calvin Protocol для распределенных транзакций",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/calvin-protocol/";
@@ -578,7 +578,7 @@ ninja.data = [{
           title: "Конкурентный доступ к данным",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/concurrent-data-access/";
@@ -589,7 +589,7 @@ ninja.data = [{
           title: "Хочешь рисуй, не хочешь - вызывай REST",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/tools/";
@@ -600,7 +600,7 @@ ninja.data = [{
           title: "ACID, AID или AD",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/acid-aid-or-ad/";
@@ -611,7 +611,7 @@ ninja.data = [{
           title: "Что не так с PostgreSQL",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/what-s-wrong-with-postgresql/";
@@ -622,7 +622,7 @@ ninja.data = [{
           title: "Принцип прочности",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/robustness-principle/";
@@ -633,7 +633,7 @@ ninja.data = [{
           title: "Борьба с зомби-процессами",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/zombie-processes/";
@@ -644,7 +644,7 @@ ninja.data = [{
           title: "Гарантированная отправка сообщений",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2025/reliable-delivery/";
@@ -655,7 +655,7 @@ ninja.data = [{
           title: "Надежность, прочность, устойчивость",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2024/reliability-strength-stability/";
@@ -666,7 +666,7 @@ ninja.data = [{
           title: "Итоги проведения олимпиад",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2024/olymp-summary/";
@@ -677,7 +677,7 @@ ninja.data = [{
           title: "Фэйл с RabbitMQ и Kubernetes API",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2024/fail-rabbitmq-kubernetes-api/";
@@ -688,7 +688,7 @@ ninja.data = [{
           title: "Ускорение потоков данных",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2024/data-flow-speeding-up/";
@@ -699,97 +699,10 @@ ninja.data = [{
           title: "Log-based- и Queue-based-брокеры сообщений",
         
         description: "",
-        section: "Posts",
+        section: "Посты",
         handler: () => {
           
             window.location.href = "/blog/2024/log-and-queue-based-brokers/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6D%65%7A%68%6F%76%61%73@%79%61%6E%64%65%78.%72%75", "_blank");
-        },
-      },{
-        id: 'social-telegram',
-        title: 'telegram',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://telegram.me/AlexanderMezhov", "_blank");
-        },
-      },{
-        id: 'social-telegram_channel',
-        title: 'Telegram_channel',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-telegram_channel_name',
-        title: 'Telegram_channel_name',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-max_username',
-        title: 'Max_username',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/AlexMAS", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/mezhov", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
