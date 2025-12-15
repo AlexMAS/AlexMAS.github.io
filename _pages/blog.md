@@ -2,6 +2,8 @@
 layout: default
 permalink: /blog/
 title: Архитектоника в ИТ
+description: Заметки про ИТ-архитектуру и разработку
+thumbnail: /assets/img/blog/arch_and_dev.jpeg
 nav: true
 nav_order: 1
 pagination:
@@ -76,7 +78,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read &nbsp; &middot; &nbsp;
+                      {{ read_time }} мин &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
