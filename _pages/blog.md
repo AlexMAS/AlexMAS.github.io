@@ -31,6 +31,7 @@ pagination:
     </div>
     {% endif %}
     <h1>{{ site.blog_name }}</h1>
+    <br/>
     <h2>{{ site.blog_description }}</h2>
   </div>
 {% endif %}
@@ -135,7 +136,7 @@ pagination:
       </h3>
       <p>{{ post.excerpt }}</p>
       <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
+        {{ read_time }} мин &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %d, %Y' }}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}

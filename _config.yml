@@ -89,8 +89,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_img: /assets/img/blog/arch_and_dev.jpeg
 blog_name: Архитектоника в ИТ # blog_name will be displayed in your blog page
 blog_description: >
-  Заметки про ИТ-архитектуру и разработку<br/>
-  Больше постов в Telegram-канале <a href="https://t.me/arch_and_dev/79">@arch_and_dev</a><br/>
+  Заметки про ИТ-архитектуру и разработку<br/><br/>
+  Больше постов в Telegram-канале <a href="https://t.me/arch_and_dev/79">@arch_and_dev</a><br/><br/>
   Тематическая подборка постов <a href="/selection/">тут</a>
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
