@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-9-архитектурных-заблуждений-о-распределённых-системах",
+        },{id: "post-трансформация-конференций",
+        
+          title: "Трансформация конференций",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ontico-conf-transformation/";
+          
+        },
+      },{id: "post-9-архитектурных-заблуждений-о-распределённых-системах",
         
           title: "9 архитектурных заблуждений о распределённых системах",
         
