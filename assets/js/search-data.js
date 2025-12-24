@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-трансформация-конференций",
+        },{id: "post-первичный-анализ-задачи-поиска-медицинских-документов",
+        
+          title: "Первичный анализ задачи поиска медицинских документов",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/search-for-medical-documents/";
+          
+        },
+      },{id: "post-трансформация-конференций",
         
           title: "Трансформация конференций",
         
