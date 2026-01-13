@@ -2,7 +2,7 @@
 layout: post
 title: Итоги проведения олимпиад
 date: 2024-12-27
-tags: 
+tags: summary
 categories: post
 thumbnail: /assets/img/blog/2024/2024-12-25-olymp-summary.png
 ---
