@@ -23,7 +23,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-первичный-анализ-задачи-поиска-медицинских-документов",
+        },{id: "post-throttling-бесполезная-трата-cpu",
+        
+          title: "Throttling - бесполезная трата CPU",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/throttling-and-cpu-usage/";
+          
+        },
+      },{id: "post-итоги-2025-года",
+        
+          title: "Итоги 2025 года",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-year-summary/";
+          
+        },
+      },{id: "post-первичный-анализ-задачи-поиска-медицинских-документов",
         
           title: "Первичный анализ задачи поиска медицинских документов",
         
