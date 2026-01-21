@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-throttling-бесполезная-трата-cpu",
+        },{id: "post-oom-killer-к-нам-приходит",
+        
+          title: "OOM Killer к нам приходит",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/oom-killer/";
+          
+        },
+      },{id: "post-throttling-бесполезная-трата-cpu",
         
           title: "Throttling - бесполезная трата CPU",
         
