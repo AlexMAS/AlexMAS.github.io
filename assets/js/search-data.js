@@ -23,7 +23,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-oom-killer-к-нам-приходит",
+        },{id: "post-архитектура-лечит-причину",
+        
+          title: "Архитектура лечит причину",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/arch-heals-root-cause/";
+          
+        },
+      },{id: "post-плохо-знаешь-данные-рискуешь-здоровьем",
+        
+          title: "Плохо знаешь данные - рискуешь здоровьем",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/know-your-data/";
+          
+        },
+      },{id: "post-oom-killer-к-нам-приходит",
         
           title: "OOM Killer к нам приходит",
         
