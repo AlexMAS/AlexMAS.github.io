@@ -23,7 +23,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-архитектура-лечит-причину",
+        },{id: "post-workflow-event-pattern",
+        
+          title: "Workflow Event pattern",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/workflow-event-pattern/";
+          
+        },
+      },{id: "post-domain-vision-statement",
+        
+          title: "Domain Vision Statement",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/domain-vision-statement/";
+          
+        },
+      },{id: "post-архитектура-лечит-причину",
         
           title: "Архитектура лечит причину",
         
