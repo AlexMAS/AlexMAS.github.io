@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Архитектура лечит причину
-date: 2026-02-02
+date: 2026-02-03
 tags: arch
 categories: article
 thumbnail: /assets/img/blog/2026/2026-02-03-arch-heals-root-cause.jpg
