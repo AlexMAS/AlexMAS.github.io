@@ -23,7 +23,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-workflow-event-pattern",
+        },{id: "post-consumer-driven-contracts",
+        
+          title: "Consumer-Driven Contracts",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/consumer-driven-contracts/";
+          
+        },
+      },{id: "post-словарь-предметной-области",
+        
+          title: "Словарь предметной области",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ubiquitous-language/";
+          
+        },
+      },{id: "post-я-принёс-тебе-аналитику",
+        
+          title: "Я принёс тебе аналитику",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/i-have-done-analysis-for-you/";
+          
+        },
+      },{id: "post-intention-revealing-interface",
+        
+          title: "Intention-Revealing Interface",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/intention-revealing-interface/";
+          
+        },
+      },{id: "post-workflow-event-pattern",
         
           title: "Workflow Event pattern",
         
