@@ -23,7 +23,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-consumer-driven-contracts",
+        },{id: "post-от-разработчика-к-ai-агенту",
+        
+          title: "От разработчика к  AI-агенту",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/from-dev-to-ai/";
+          
+        },
+      },{id: "post-chronicle-queue-kafka-на-минималках",
+        
+          title: "Chronicle Queue - Kafka на минималках",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/local-queue-pattern/";
+          
+        },
+      },{id: "post-важность-авторского-контроля",
+        
+          title: "Важность авторского контроля",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/arch-control/";
+          
+        },
+      },{id: "post-неожиданный-параллелизм-при-обработке-сообщений-в-kafka",
+        
+          title: "Неожиданный параллелизм при обработке сообщений в Kafka",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/concurrent-processing-kafka-partitions/";
+          
+        },
+      },{id: "post-consumer-driven-contracts",
         
           title: "Consumer-Driven Contracts",
         
