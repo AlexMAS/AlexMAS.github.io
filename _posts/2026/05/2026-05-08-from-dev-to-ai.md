@@ -21,4 +21,4 @@ thumbnail: /assets/img/blog/2026/2026-05-08-from-dev-to-ai.png
 
 [Ссылка на Yandex-календарь](https://calendar.yandex.ru/event/179316704530240?applyToFuture=0&event_date=2026-05-12T13%3A00%3A00&layerId=37188689&show_date=2026-05-12)
 
-*( Ссылку для подключения я выложу чуть позже )*
+[Ссылка на трансляцию](https://vkvideo.ru/video-14839588_456239266?list=ln-Kb32ZfipzPzTf0H8nA)
