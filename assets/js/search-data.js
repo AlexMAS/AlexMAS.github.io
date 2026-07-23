@@ -23,7 +23,73 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-от-разработчика-к-ai-агенту",
+        },{id: "post-работай-с-датой-и-временем-правильно",
+        
+          title: "Работай с датой и временем правильно!",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/work-with-date-and-time-correctly/";
+          
+        },
+      },{id: "post-system-design-чьё-кунг-фу-сильней",
+        
+          title: "System Design: чьё кунг-фу сильней",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/system-design-whose-kung-fu-is-stronger/";
+          
+        },
+      },{id: "post-три-множителя-для-ai-ускорения",
+        
+          title: "Три множителя для AI-ускорения",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/three-multipliers-for-ai-acceleration/";
+          
+        },
+      },{id: "post-deadline-propagation",
+        
+          title: "Deadline Propagation",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/deadline-propagation/";
+          
+        },
+      },{id: "post-повод-задуматься",
+        
+          title: "Повод задуматься",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/think-about-it/";
+          
+        },
+      },{id: "post-факторы-принятия-и-пересмотра-решений",
+        
+          title: "Факторы принятия и пересмотра решений",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/it-depends/";
+          
+        },
+      },{id: "post-от-разработчика-к-ai-агенту",
         
           title: "От разработчика к  AI-агенту",
         
