@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Работай с датой и временем правильно!
-date: 2026-07-16
+date: 2026-07-24
 tags: arch dev
 categories: article
 thumbnail: /assets/img/blog/2026/2026-07-24-time-issues.jpg
