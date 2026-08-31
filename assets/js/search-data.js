@@ -23,7 +23,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-работай-с-датой-и-временем-правильно",
+        },{id: "post-что-лучше-поддомен-или-ограниченный-контекст",
+        
+          title: "Что лучше - поддомен или ограниченный контекст?",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/bounded-context/";
+          
+        },
+      },{id: "post-тип-поддомена-и-стратегия-решения",
+        
+          title: "Тип поддомена и стратегия решения",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/subdomain-types/";
+          
+        },
+      },{id: "post-контракт-ошибок",
+        
+          title: "Контракт ошибок",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/fault-contract/";
+          
+        },
+      },{id: "post-работай-с-датой-и-временем-правильно",
         
           title: "Работай с датой и временем правильно!",
         
