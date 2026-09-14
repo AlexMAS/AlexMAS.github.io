@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-что-лучше-поддомен-или-ограниченный-контекст",
+        },{id: "post-невозможность-фишера-линча-патерсона",
+        
+          title: "Невозможность Фишера-Линча-Патерсона",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/flp-impossibility/";
+          
+        },
+      },{id: "post-что-лучше-поддомен-или-ограниченный-контекст",
         
           title: "Что лучше - поддомен или ограниченный контекст?",
         
@@ -944,7 +955,7 @@ ninja.data = [{
         section: "Посты",
         handler: () => {
           
-            window.location.href = "/blog/2024/reliability-strength-stability/";
+            window.location.href = "/blog/2024/reliability-robustness-resilience/";
           
         },
       },{id: "post-итоги-проведения-олимпиад",
