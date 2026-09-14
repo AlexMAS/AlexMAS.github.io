@@ -25,7 +25,7 @@ metadata:
 
 Всегда ли необходимо заботиться об устойчивости? Зависит от рисков, которые несет бизнес при возникновении таких ситуаций. Последствия могут включать временны́е, репутационные, финансовые риски или даже создавать угрозу жизни людей. С одной стороны, совсем игнорировать уровень непредвиденных ошибок, упрощая модель системы, конечно, было бы глупо. С другой, попытка учесть всевозможные ситуации для большинства программных систем, является неоправданным усложнением.
 
-К посту прикрепляю оригинал статьи ["Going Beyond Reliability to Robustness and Resilience in Space Life Support Systems", Harry W. Jones, 2021](/assets/files/blog/140%20Reliability,%20robustness,%20and%20resilience%20FINAL.pdf).
+К посту прикрепляю оригинал статьи ["Going Beyond Reliability to Robustness and Resilience in Space Life Support Systems", Harry W. Jones, 2021](/assets/files/blog/Reliability-Robustness-Resilience.pdf).
 
 ***
 
