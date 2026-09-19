@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-невозможность-фишера-линча-патерсона",
+        },{id: "post-где-начинается-декомпозиция",
+        
+          title: "Где начинается декомпозиция",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/task-decomposition/";
+          
+        },
+      },{id: "post-невозможность-фишера-линча-патерсона",
         
           title: "Невозможность Фишера-Линча-Патерсона",
         
