@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-где-начинается-декомпозиция",
+        },{id: "post-а-ты-придумал-задачу-для-яндекса",
+        
+          title: "А ты придумал задачу для Яндекса?",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/yaprobackend/";
+          
+        },
+      },{id: "post-где-начинается-декомпозиция",
         
           title: "Где начинается декомпозиция",
         
