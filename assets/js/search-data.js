@@ -23,7 +23,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-а-ты-придумал-задачу-для-яндекса",
+        },{id: "post-признак-нарушения-архитектурных-границ-чужой-id",
+        
+          title: "Признак нарушения архитектурных границ: чужой ID",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/arch-boundary-violation-indicator/";
+          
+        },
+      },{id: "post-показатели-эффективности-работы",
+        
+          title: "Показатели эффективности работы",
+        
+        description: "",
+        section: "Посты",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/kpi/";
+          
+        },
+      },{id: "post-а-ты-придумал-задачу-для-яндекса",
         
           title: "А ты придумал задачу для Яндекса?",
         
