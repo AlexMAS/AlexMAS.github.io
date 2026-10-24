@@ -49,13 +49,13 @@ thumbnail: /assets/img/blog/2026/2026-04-04-consumer-driven-contracts.png
 
 ## Tutorials
 
-* [Pact 101 – Getting started with Pact and Consumer Driven Contract Testing]([https://dius.com.au/2016/02/03/microservices-pact/](https://dius.com.au/2016/02/03/pact-101-getting-started-with-pact-and-consumer-driven-contract-testing/))
+* [Pact 101 – Getting started with Pact and Consumer Driven Contract Testing](https://dius-au.medium.com/pact-101-getting-started-with-pact-and-consumer-driven-contract-testing-161fa278b427)
 * [How to test Microservice Integration with Pact](https://codefresh.io/blog/how-to-test-microservice-integration-with-pact/)
 
 ## Frameworks
 
 * [Pact](https://pact.io/)
-* [Spring Cloud Contract (JVM)](https://cloud.spring.io/spring-cloud-contract/)
+* [Stubborn Contract (ex. Spring Cloud Contract (JVM)](https://stubborn.sh/)
 
 ## Books
 
